@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>PRWD</title>
+    <meta name="viewport" content="width-device=width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      $(function() {  $("#popModal").modal('show'); });
+    </script>
+    <!-- vanaf hier begint bnnvara balk -->
+    <nav class="bnnvara">
+      <div class="bovenbalkinhoud">
+        <a href="https://www.bnnvara.nl/"><img id="logo" src="image/bnnvaralogotab.svg" alt="logo bnnvara"></a>
+        <menu>
+          <span><h1 class="menu">Menu</h1></span>
+        </menu>
+      </div>
+      <div id="icons" class="bovenbalkinhoud">
+        <img class="icon" src="image/vergrootglas.svg" alt="vergrootglas">
+        <a href="https://v1.api.eu.janrain.com/9129387e-c8c0-4c0c-82b9-906837e8a1ac/auth-ui/login?__aic_csrf=OILaBYOqr6Fmpghm&claims=%7B%22id_token%22%3A%7B%22photos%22%3Anull%2C%22roles%22%3Anull%2C%22username%22%3Anull%7D%7D&client_id=7d625858-7208-4a66-b834-bbc625d53292&code_challenge=c7h6a8i9GdB_1Nx2j8Nww7MLSB3DTrhoW4V2Ra_UKAs&code_challenge_method=S256&prompt=login&redirect_uri=https%3A%2F%2Fwww.bnnvara.nl%2F&response_mode=query&response_type=code&scope=openid+profile+email&state=24d7da3bc2764ddf830700998acb5dbd"><img class="icon" src="image/userding.svg" alt="user"></a>
+        <a href="https://www.npostart.nl/"><img id="npo" src="image/npo.svg" alt="npo"></a>
+      </div>
+    </nav>
+    <!-- hier begint de banner -->
+    <header>
+      <div class="middenlogo">
+        <img class="logopa" src="image/logopa.png" alt="logo">
+        <h1>PrivAware</h1>
+    </header>
+    <!-- hier begint privaware menu balk -->
+    <nav>
+      <ul>
+          <li><a class="layout paginabevinding" href="index.html">Overzicht</a>
+        </li>
+        <li><a class="layout" href="rel.html">Relevant</a></li>
+        <li><a class="layout" href="hulp.html">Hulplijn</a></li>
+        <li><a class="layout" href="over.html">Over</a></li>
+      </ul>
+    </nav>
+    <!-- hier begint inhoud -->
+    <!-- Popup wrapper -->
+    <div id="popModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Popup content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">WARNING</h4>
+          </div>
+          <div class="modal-body">
+            <p>Je zal jouw persoonlijke gegevens delen, dit gaat veilig, maar let op voor de slang.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <main class="gridA">
+
+        <section class="blok1A">
+          <h2>Welkom</h2>
+          <p>Jij bent zojuist op deze pagina beland. Wij gaan ervanuit dat jij behoefte hebt aan meer informatie, dus neem een kijkje op onze webpagina. !pas aan, hier weten ze niet waar deze website voor is of de bedoeling!</p>
+          <h3>Benieuwd naar ervaringen van anderen?</h3>
+          <p>Je kan dan verhalen lezen van anderen en hoe ze dit is overkomen, ook jij kan je verhaal insturen om anderen te waarschuwen, dit wordt anoniem gedaan.</p>
+          <a href="rel.html"><input type="submit" value="Klik hier om de verhalen te lezen"></a>
+          </section>
+        <section class="blok2A">
+          <img class="foto-grootte"src="image/snake-dagboek.png" alt="dagboek omwikkeld met een slang">
+        </section>
+    </main>
+    <!-- hier begint de footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row parent">
+          <div class="div1 col-sm-12 col-md-6">
+            <h6>Over Ons</h6>
+            <p class="text-justify">Wij zijn PrivAware! Ons doel is om zoveel mogelijk jongeren te waarschuwen van het gevaar van privacy schending. Ook willen wij ervoor zorgen dat dit juist wordt voorkomen, zodat het gevaar niet van toepassing hoeft te komen.</p>
+          </div>
+          <div class="div2 col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by PrivAware.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li class="flg"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+            <li class=" =flg"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+            <li class="flg"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </footer>
+  </body>
+  <script src="./myscript.js"></script>
+</html>

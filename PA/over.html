@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>PRWD</title>
+    <meta name="viewport" content="width-device=width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- vanaf hier begint bnnvara balk -->
+    <nav class="bnnvara">
+      <div class="bovenbalkinhoud">
+        <a href="https://www.bnnvara.nl/"><img id="logo" src="image/bnnvaralogotab.svg" alt="logo bnnvara"></a>
+        <menu>
+          <span><h1 class="menu">Menu</h1></span>
+        </menu>
+      </div>
+      <div id="icons" class="bovenbalkinhoud">
+        <img class="icon" src="image/vergrootglas.svg" alt="vergrootglas">
+        <a href="https://v1.api.eu.janrain.com/9129387e-c8c0-4c0c-82b9-906837e8a1ac/auth-ui/login?__aic_csrf=OILaBYOqr6Fmpghm&claims=%7B%22id_token%22%3A%7B%22photos%22%3Anull%2C%22roles%22%3Anull%2C%22username%22%3Anull%7D%7D&client_id=7d625858-7208-4a66-b834-bbc625d53292&code_challenge=c7h6a8i9GdB_1Nx2j8Nww7MLSB3DTrhoW4V2Ra_UKAs&code_challenge_method=S256&prompt=login&redirect_uri=https%3A%2F%2Fwww.bnnvara.nl%2F&response_mode=query&response_type=code&scope=openid+profile+email&state=24d7da3bc2764ddf830700998acb5dbd"><img class="icon" src="image/userding.svg" alt="user"></a>
+        <a href="https://www.npostart.nl/"><img id="npo" src="image/npo.svg" alt="npo"></a>
+      </div>
+    </nav>
+    <!-- hier begint de banner -->
+    <header>
+      <div class="middenlogo">
+        <img class="logopa" src="image/logopa.png" alt="logo">
+        <h1>PrivAware</h1>
+    </header>
+    <!-- hier begint privaware menu balk -->
+    <nav>
+      <ul>
+        <li><a class="layout" href="index.html">Overzicht</a></li>
+        <li><a class="layout" href="rel.html">Relevant</a></li>
+        <li><a class="layout" href="hulp.html">Hulplijn</a></li>
+        <li><a class="layout paginabevinding" href="over.html">Over</a></li>
+      </ul>
+    </nav>
+
+    <main class="gridD">
+      <section class="blok1D">
+            <h2>Over ons</h2>
+            <p>Wij zijn PrivAware! Ons doel is om zoveel mogelijk jongeren te waarschuwen voor het gevaar van privacy schending. Ook willen wij ervoor zorgen dat dit juist wordt voorkomen, zodat het gevaar niet van toepassing hoeft te komen.</p>
+            <h3>Neem contact met ons op</h3>
+            <p>Telefoonnummer: 013-6570330</p>
+            <p>E-mail: privaware@gmail.com</p>
+            <p>Instagram: @PrivAware</p>
+            <p>Facebook: @PrivAware</p>
+            <p>Twitter: @PrivAware</p>
+        </section>
+        <section class="blok2D">
+          <h3>Contact Formulier</h3>
+          <div class="rand">
+            <form action="verstuurd.html">
+            <label for="vollemaam">Volledige Naam</label>
+            <input type="text" id="fname" name="Volledige Naam" placeholder="Jouw volledige naam...">
+            <label for="email">E-mail</label>
+            <input type="text" id="lname" name="E-mail" placeholder="Jouw e-mail adress...">
+            <label for="country">Optie</label>
+
+            <select id="country" name="country">
+              <option value="verhaal">Verhaal insturen</option>
+              <option value="vraag">Vragen</option>
+              <option value="suggestie">Suggesties voor ons</option>
+            </select>
+
+            <label for="subject">Onderwerp</label>
+            <textarea id="subject" name="subject" placeholder="Vul in.." style="height:200px"></textarea>
+            <input type="submit" value="Versturen">
+        </div>
+      </section>
+    </main>
+    <!-- vanaf hier de footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row parent">
+            <div class="div1 col-sm-12 col-md-6">
+              <h6>Over Ons</h6>
+              <p class="text-justify">Wij zijn PrivAware! Ons doel is om zoveel mogelijk jongeren te waarschuwen van het gevaar van privacy schending. Ook willen wij ervoor zorgen dat dit juist wordt voorkomen, zodat het gevaar niet van toepassing hoeft te komen.</p>
+            </div>
+            <div class="div2 col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by PrivAware</a>.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li class="flg"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+              <li class=" =flg"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+              <li class="flg"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
